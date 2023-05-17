@@ -24,7 +24,7 @@ func (t Time) MarshalJSON() ([]byte, error) {
 		return []byte(`null`), nil
 	}
 
-	v := time.Time(t).Format(time.RFC3339)
+	v := time.Time(t).Format(time.RFC3339Nano)
 	return json.Marshal(v)
 }
 
