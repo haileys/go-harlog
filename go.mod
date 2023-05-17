@@ -1,4 +1,4 @@
-module github.com/vvakame/go-harlog
+module github.com/haileys/go-harlog
 
 go 1.13
 
